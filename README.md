@@ -14,5 +14,11 @@ Before running the code, you need to make sure that OpenSSL is installed on your
 
 ---
 
+# Run the code
+
+To run the code, first you need to create a folder named `build`. Then, you need to get into the folder and run the `cmake ..` command for creating build files. Afterwards, you should run the `make` command to make your code executable. And eventually, for running the code, you need to use the command of `./MD5-checksum`.
+
+---
+
 In the code, in its main class, you can write the path of your desired file in the `filepath` string that has been declared. Then, the md5 function will calculate the 32-bit number of it and then prints it for you.
 As an example, you can see the `/home/pouyan/code/c++/chess/CMakeLists.txt` which is my file path and when I run the code with this file path, i will get `b60bb92326ea464b239f9f42036b4145` as the MD5 checksum of my file.
