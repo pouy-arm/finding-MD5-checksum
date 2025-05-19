@@ -11,3 +11,8 @@ This code reads a file in binary and calculates its MD5 using the OpenSSL librar
 Before running the code, you need to make sure that OpenSSL is installed on your operating system.
 - I am using **linux Manjaro**, so I use the command `sudo pacman -S openssl` for installing and `openssl version` for verifying the installation of OpenSSL in Linux Manjaro.
 - Alternatively, if you are using **Ubuntu Linux**, you can use `sudo apt install openssl` and `openssl version` for installing and then checking the installation respectively.
+
+---
+
+In the code, in its main class, you can write the path of your desired file in the `filepath` string that has been declared. Then, the md5 function will calculate the 32-bit number of it and then prints it for you.
+As an example, you can see the `/home/pouyan/code/c++/chess/CMakeLists.txt` which is my file path and when I run the code with this file path, i will get `b60bb92326ea464b239f9f42036b4145` as the MD5 checksum of my file.
